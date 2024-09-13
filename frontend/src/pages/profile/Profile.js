@@ -11,7 +11,7 @@ import { follow, unFollow } from "../../redux/userRedux";
 import CircularLoader from "../../component/CircularLoader";
 const Profile = () => {
   const { userId } = useParams();
-  const pf = "https://NoteSpreaderbackend-abuzar26.onrender.com/images/";
+  const pf = "https://notespreader.onrender.com/images";
   const [user, setuser] = useState({});
   const [post, setpost] = useState([]);
   const { currentUser: currentuser } = useSelector((state) => state.user);

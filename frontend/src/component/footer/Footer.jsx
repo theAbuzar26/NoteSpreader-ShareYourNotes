@@ -29,7 +29,7 @@ const Footer = () => {
               Contact Us
             </a>
             <a
-              href="https://github.com/theAbuzar26/NoteSpreader"
+              href="https://github.com/theAbuzar26/NoteSpreader-ShareYourNotes"
               className="about-us-title"
               target="blank"
             >

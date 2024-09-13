@@ -12,7 +12,7 @@ const Topbar = () => {
   const [searchedItem, setsearch] = useState("");
   const menu = useRef();
   const [placeholder, setplaceholder] = useState("..");
-  const pf = "https://NoteSpreaderbackend-abuzar26.onrender.com/images/";
+  const pf = "https://notespreader.onrender.com/images";
   const dispatch = useDispatch();
   const MenuClickHandler = () => {
     if (menu.current.style.display == "flex") {

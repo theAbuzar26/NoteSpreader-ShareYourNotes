@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Profile from "../../pages/profile/Profile";
 const Banner = () => {
-  const pf = "https://NoteSpreaderbackend-abuzar26.onrender.com/images/";
+  const pf = "https://notespreader.onrender.com/images";
   const [users, setusers] = useState([]);
   const [notes, setnotes] = useState([]);
   const [len, setlen] = useState(0);

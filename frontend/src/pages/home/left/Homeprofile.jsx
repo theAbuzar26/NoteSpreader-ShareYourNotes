@@ -13,7 +13,7 @@ import {
   Home,
 } from "@material-ui/icons";
 const Homeprofile = () => {
-  const pf = "https://NoteSpreaderbackend-abuzar26.onrender.com/images/";
+  const pf = "https://notespreader.onrender.com/images";
   const { currentUser, isFetching } = useSelector((state) => state.user);
   const user = currentUser;
 

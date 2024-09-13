@@ -36,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 const UploadNote = () => {
   const { currentUser: user } = useSelector((state) => state.user);
-  const pf = "https://NoteSpreaderbackend-abuzar26.onrender.com/images/";
+  const pf = "https://notespreader.onrender.com/images";
   const ShowForm = useRef();
   const notename = useRef();
   const descritpion = useRef();

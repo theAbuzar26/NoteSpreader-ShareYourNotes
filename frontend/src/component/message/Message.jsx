@@ -2,7 +2,7 @@ import "./message.css";
 import { format } from "timeago.js";
 
 export default function Message({ message, own }) {
-  const pf = "https://NoteSpreaderbackend-abuzar26.onrender.com/images/";
+  const pf = "https://notespreader.onrender.com/images";
   return (
     <div className={own ? "message own" : "message"}>
       <div className="messageTop">

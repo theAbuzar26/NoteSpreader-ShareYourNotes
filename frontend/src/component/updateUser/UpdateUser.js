@@ -7,7 +7,7 @@ import { publicRequest } from "../../requestMethods";
 import { useSelector } from "react-redux";
 import Navbar from "../Navbar";
 const UpdateUser = () => {
-  const pf = "https://NoteSpreaderbackend-abuzar26.onrender.com/images/";
+  const pf = "https://notespreader.onrender.com/images";
   const { currentUser: user } = useSelector((state) => state.user);
   const [firstname, setfirstname] = useState();
   const [lastname, setlastname] = useState();
