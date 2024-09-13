@@ -10,7 +10,6 @@ app.use(router);
 const io = require("socket.io")(server, {
   cors: {
     origin: "https://notespreader-shareyournotes.onrender.com",
-    credentials: true,
   },
 });
 
