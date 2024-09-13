@@ -4,7 +4,7 @@ import "./CommentBox.css";
 import { Link } from "react-router-dom";
 
 const CommentBox = ({ userinfo, text }) => {
-  const pf = "https://notespreader.onrender.com/images";
+  const pf = "https://notespreader.onrender.com/images/";
   const [user, setuser] = useState({});
   const [isfetchuser, setisfetchuser] = useState(false);
   useEffect(() => {
