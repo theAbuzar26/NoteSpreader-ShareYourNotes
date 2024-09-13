@@ -9,9 +9,10 @@ import {
   PictureAsPdf,
   AddCircle,
   Image,
-} from "@material-ui/icons";
+} from "@mui/icons-material";
 import { publicRequest } from "../../requestMethods";
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@mui/styles"; // Updated import
+
 import { mobile } from "../../responsive";
 const useStyles = makeStyles((theme) => ({
   uploadIcon: {

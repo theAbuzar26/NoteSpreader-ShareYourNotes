@@ -7,7 +7,7 @@ import {
   Comment,
   Edit,
   Delete,
-} from "@material-ui/icons";
+} from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { format } from "timeago.js";

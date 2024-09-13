@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useRef, Component } from "react";
 import "./Topbar.css";
 import { Link } from "react-router-dom";
-import { LibraryBooksTwoTone, CloseRounded } from "@material-ui/icons";
+import { LibraryBooksTwoTone, CloseRounded } from "@mui/icons-material";
 import { useState } from "react";
 
 import { publicRequest } from "../../requestMethods";

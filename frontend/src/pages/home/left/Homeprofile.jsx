@@ -11,7 +11,7 @@ import {
   ExitToApp,
   Settings,
   Home,
-} from "@material-ui/icons";
+} from "@mui/icons-material";
 const Homeprofile = () => {
   const pf = "https://notespreader.onrender.com/images";
   const { currentUser, isFetching } = useSelector((state) => state.user);

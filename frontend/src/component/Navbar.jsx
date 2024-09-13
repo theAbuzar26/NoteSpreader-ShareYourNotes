@@ -1,11 +1,11 @@
-import { Badge } from "@material-ui/core";
+import { Badge } from "@mui/material";
 import {
   Search,
   Chat,
   Menu,
   AccountCircle,
   ExitToApp,
-} from "@material-ui/icons";
+} from "@mui/icons-material";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";

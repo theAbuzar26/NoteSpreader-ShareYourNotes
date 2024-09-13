@@ -4,7 +4,7 @@ import Post from "../../component/post/Post";
 import { Link, useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Navbar from "../../component/Navbar";
-import { Add, Remove } from "@material-ui/icons";
+import { Add, Remove } from "@mui/icons-material";
 import { publicRequest } from "../../requestMethods";
 import { useDispatch, useSelector } from "react-redux";
 import { follow, unFollow } from "../../redux/userRedux";

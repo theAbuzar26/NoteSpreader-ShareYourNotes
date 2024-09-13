@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { mobile } from "../../responsive";
 import { publicRequest } from "../../requestMethods";
-import { Send } from "@material-ui/icons";
-import { makeStyles } from "@material-ui/core/styles";
+import { Send } from "@mui/icons-material";
+import { makeStyles } from "@mui/styles";
 import { Navigate, useNavigate } from "react-router";
 import Loader from "../CircularLoader";
 const UserOne = styled.div`

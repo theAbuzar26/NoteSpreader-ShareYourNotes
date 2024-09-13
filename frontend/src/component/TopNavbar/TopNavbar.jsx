@@ -13,7 +13,7 @@ import {
 } from "./Navbar.style";
 import Homeprofile from "../../pages/home/left/Homeprofile";
 import { Link } from "react-router-dom";
-import { colors } from "@material-ui/core";
+import { colors } from "@mui/material";
 
 function Navbar() {
   const [extendNavbar, setExtendNavbar] = useState(false);
