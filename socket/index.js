@@ -7,7 +7,9 @@ const server = http.createServer(app);
 
 app.use(router);
 
-const io = require("socket.io")(server, { cors: { origin: "*" } });
+const io = require("socket.io")(server, {
+  cors: { origin: "https://notespreader-shareyournotes.onrender.com" },
+});
 
 let users = [];
 

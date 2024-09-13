@@ -29,7 +29,7 @@ connection(URL);
 
 app.use(
   cors({
-    origin: "*",
+    origin: "https://notespreader-shareyournotes.onrender.com",
     methods: ["GET", "POST", "DELETE", "UPDATE", "PUT"],
     allowedHeaders: ["Content-Type", "Authorization", "sessionId"],
     exposedHeaders: ["sessionId"],
