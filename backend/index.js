@@ -29,11 +29,11 @@ connection(URL);
 
 app.use(
   cors({
-    origin: "https://notespreader-shareyournotes.onrender.com",
-    methods: ["GET", "POST", "DELETE", "UPDATE", "PUT"],
-    allowedHeaders: ["Content-Type", "Authorization", "sessionId"],
-    exposedHeaders: ["sessionId"],
-    preflightContinue: false,
+    origin: "https://notespreader-shareyournotes.onrender.com", // Frontend domain
+    methods: ["GET", "POST", "DELETE", "UPDATE", "PUT"], // HTTP methods allowed
+    allowedHeaders: ["Content-Type", "Authorization", "sessionId"], // Headers allowed in requests
+    exposedHeaders: ["sessionId"], // Headers exposed in responses
+    credentials: true, // Allow credentials (cookies/auth headers)
   })
 );
 // app.use(function(req, res, next) {
