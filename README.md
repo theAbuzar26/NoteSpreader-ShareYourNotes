@@ -6,12 +6,6 @@ NoteSpreader is a web application that allows users to share their notes with ot
 
 ![Features](/images/features.jpg)
 
-## How to Use NoteSpreader
-
-## Features
-
-![Features](/images/HowToUse.jpg)
-
 ## Technologies Used
 
 NoteSpreader is built using a combination of cutting-edge technologies:
